@@ -1,5 +1,0 @@
-
-
-    describe('ValueObject Unit Tests', () => {
-
-    })
