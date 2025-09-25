@@ -1,4 +1,6 @@
+import ValidatorRules from "../../../shared/domain/validators/validator-rulers";
 import { Uuid } from "../../../shared/domain/value-objects/uuid.vo";
+
 
 export type CategoryConstructorProps = {
     category_id?: Uuid;
@@ -40,6 +42,7 @@ changeName(name: string): void {
     this.name = name;
 }
 
+
 changeDescription(description: string): void {
     this.description = description;
 }
@@ -62,4 +65,5 @@ toJSON() {
     };
 }
 }
+
 
